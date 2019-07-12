@@ -13,10 +13,11 @@ GLUON_FEATURES := \
 	mesh-batman-adv-15 \
 	mesh-vpn-fastd \
 	radvd \
-	respondd \
+	# respondd 
 	status-page \
 	web-advanced \
-	web-wizard
+	web-wizard \
+	gluon-alfred
 
 ##	GLUON_SITE_PACKAGES
 #		Specify additional Gluon/OpenWrt packages to include here;
