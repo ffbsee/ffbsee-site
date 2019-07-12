@@ -17,7 +17,7 @@ GLUON_FEATURES := \
 	status-page \
 	web-advanced \
 	web-wizard \
-	gluon-alfred
+	alfred
 
 ##	GLUON_SITE_PACKAGES
 #		Specify additional Gluon/OpenWrt packages to include here;
