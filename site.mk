@@ -13,7 +13,7 @@ GLUON_FEATURES := \
 	mesh-batman-adv-15 \
 	mesh-vpn-fastd \
 	radvd \
-	# respondd 
+	respondd \
 	status-page \
 	web-advanced \
 	web-wizard \
