@@ -12,10 +12,11 @@ GLUON_FEATURES := \
 	ebtables-limit-arp \
 	mesh-batman-adv-15 \
 	mesh-vpn-fastd \
-	respondd \
+	radvd \
 	status-page \
 	web-advanced \
-	web-wizard
+	web-wizard \
+	alfred
 
 ##	GLUON_SITE_PACKAGES
 #		Specify additional Gluon/OpenWrt packages to include here;
@@ -23,7 +24,32 @@ GLUON_FEATURES := \
 #		selection that would be enabled by default or due to the
 #		chosen feature flags
 
-GLUON_SITE_PACKAGES := iwinfo
+#GLUON_SITE_PACKAGES := iwinfo
+GLUON_SITE_PACKAGES := \
+	gluon-alfred \
+	gluon-autoupdater \
+	gluon-ebtables-filter-multicast \
+	gluon-ebtables-filter-ra-dhcp \
+	gluon-ebtables-limit-arp \
+	gluon-setup-mode \
+	gluon-config-mode-autoupdater \
+	gluon-config-mode-contact-info \
+	gluon-config-mode-core \
+	gluon-config-mode-geo-location \
+	gluon-config-mode-hostname \
+	gluon-config-mode-mesh-vpn \
+	gluon-neighbour-info \
+	gluon-node-info \
+	gluon-web \
+	gluon-web-admin \
+	gluon-web-autoupdater \
+	gluon-web-network \
+	gluon-web-wifi-config \
+	gluon-mesh-batman-adv-15 \
+	gluon-mesh-vpn-fastd \
+	gluon-radvd \
+	gluon-status-page \
+	iwinfo
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
@@ -31,7 +57,7 @@ GLUON_SITE_PACKAGES := iwinfo
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := 0.6+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 2021.1.1+exp$(shell date '+%Y%m%d')
 
 # Variables set with ?= can be overwritten from the command line
 
@@ -55,3 +81,6 @@ GLUON_LANGS ?= en de
 
 # Do not build images for deprecated devices
 GLUON_DEPRECATED ?= 0
+
+# Enable autoupdater
+GLUON_AUTOUPDATER_ENABLED ?= 1
