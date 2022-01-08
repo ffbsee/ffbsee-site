@@ -87,7 +87,7 @@ GLUON_REGION ?= eu
 GLUON_LANGS ?= en de
 
 # Do not build images for deprecated devices
-GLUON_DEPRECATED ?= 0
+GLUON_DEPRECATED ?= full
 
 # Enable autoupdater
 GLUON_AUTOUPDATER_ENABLED ?= 1
