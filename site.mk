@@ -31,7 +31,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-ebtables-limit-arp \
-	gluon-setup-mode \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
@@ -41,6 +40,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-mesh-vpn \
 	-gluon-config-mode-theme \
 	ffbsee-config-mode-theme \
+	-gluon-setup-mode \
+	ffbsee-setup-mode \
 	gluon-neighbour-info \
 	gluon-node-info \
 	gluon-web \
