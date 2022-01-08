@@ -39,6 +39,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-geo-location-osm \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
+	-gluon-config-mode-theme \
+	ffbsee-config-mode-theme \
 	gluon-neighbour-info \
 	gluon-node-info \
 	gluon-web \
