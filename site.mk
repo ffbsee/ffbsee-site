@@ -42,6 +42,8 @@ GLUON_SITE_PACKAGES := \
 	ffbsee-config-mode-theme \
 	-gluon-setup-mode \
 	ffbsee-setup-mode \
+	ffbsee-alfred \
+	ffbsee-cli-basics \
 	gluon-neighbour-info \
 	gluon-node-info \
 	gluon-web \

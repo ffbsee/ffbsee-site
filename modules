@@ -15,7 +15,7 @@ PACKAGES_FFBSEE_REPO=https://github.com/ffbsee/gluon-packages.git
 
 ##	PACKAGES_$feedname_COMMIT
 #		the version/commit of the git repository to clone
-PACKAGES_FFBSEE_COMMIT=2ee586d6f36cdd02d0927cd96dc7aa528d54cd16
+PACKAGES_FFBSEE_COMMIT=fcb913092cee0662b5a7cf76e22538943f40e652
 
 ##  PACKAGES_$feedname_BRANCH
 #   the branch to check out
