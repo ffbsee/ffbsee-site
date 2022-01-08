@@ -1,0 +1,22 @@
+# This file allows specifying additional repositories to use
+# when building gluon.
+#
+# In most cases, it is not required so don't add it.
+
+##	GLUON_SITE_FEEDS
+#		for each feed name given, add the corresponding PACKAGES_* lines
+#		documented below
+GLUON_SITE_FEEDS='ffbsee'
+
+##	PACKAGES_$feedname_REPO
+#		the  git repository from where to clone the package feed
+PACKAGES_FFBSEE_REPO=https://github.com/ffbsee/gluon-packages.git
+
+
+##	PACKAGES_$feedname_COMMIT
+#		the version/commit of the git repository to clone
+PACKAGES_FFBSEE_COMMIT=5d44149af5bdaea312e0f0e0355542efd78e6235
+
+##  PACKAGES_$feedname_BRANCH
+#   the branch to check out
+PACKAGES_FFBSEE_BRANCH=master
