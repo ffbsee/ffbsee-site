@@ -1,0 +1,13 @@
+diff --git a/package/gluon-core/check_site.lua b/package/gluon-core/check_site.lua
+index 3966592d..5f906a02 100644
+--- a/package/gluon-core/check_site.lua
++++ b/package/gluon-core/check_site.lua
+@@ -63,7 +63,7 @@ end
+ need_boolean(in_site({'poe_passthrough'}), false)
+ 
+ if need_table({'dns'}, nil, false) then
+-	need_string_array_match({'dns', 'servers'}, '^[%x:]+$')
++	need_string_array_match({'dns', 'servers'}, '^[%x:.]+$')
+ end
+ 
+ need_string_array(in_domain({'next_node', 'name'}), false)
