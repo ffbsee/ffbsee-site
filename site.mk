@@ -33,7 +33,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-ebtables-limit-arp \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
-	gluon-config-mode-core \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-geo-location-osm \
 	gluon-config-mode-hostname \
@@ -45,6 +44,8 @@ GLUON_SITE_PACKAGES := \
 	ffbsee-alfred \
 	ffbsee-cli-basics \
 	ffbsee-authorized-keys \
+	ffbsee-config-mode-core \
+	-gluon-config-mode-core \
 	gluon-neighbour-info \
 	gluon-node-info \
 	gluon-web \
