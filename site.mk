@@ -44,8 +44,9 @@ GLUON_SITE_PACKAGES := \
 	ffbsee-alfred \
 	ffbsee-cli-basics \
 	ffbsee-authorized-keys \
-	ffbsee-config-mode-core \
 	-gluon-config-mode-core \
+	ffbsee-config-mode-core \
+	ffbsee-wifiscan \
 	gluon-neighbour-info \
 	gluon-node-info \
 	gluon-web \
