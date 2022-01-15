@@ -44,6 +44,7 @@ GLUON_SITE_PACKAGES := \
 	ffbsee-setup-mode \
 	ffbsee-alfred \
 	ffbsee-cli-basics \
+	ffbsee-authorized-keys \
 	gluon-neighbour-info \
 	gluon-node-info \
 	gluon-web \
