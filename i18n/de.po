@@ -27,7 +27,7 @@ msgstr ""
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
-"<p>Dies ist der öffentliche Schlüssel deines Freifunk-Knotens."
+"<p>Dies ist der öffentliche Schlüssel deines Freifunk-Knotens.</p>"
 "<div class=\"the-key\">"
 "# <%= pcdata(hostname) %><br />"
 "<%= pubkey %>"
