@@ -60,7 +60,7 @@ msgstr ""
 "<a href=\"https://10.15.239.127\" target=\"_blank\">https://10.15.239.127</a> "
 "zur Verfügung.</p>"
 "<p>Vergiss nicht, den WAN-Port mit dem Internet zu verbinden "
-"z.B. mit deiner Fritz!Box <br/>"
+"z.B. mit deiner Fritz!Box. <br/>"
 "Viel Spaß mit deinem Knoten und der Erkundung von Freifunk!</p>"
 
 # Leave empty to use the default text, which can be found in:
