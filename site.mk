@@ -87,7 +87,7 @@ GLUON_PRIORITY ?= 0
 GLUON_REGION ?= eu
 
 # Languages to include
-GLUON_LANGS ?= en de
+GLUON_LANGS ?= de
 
 # Do not build images for deprecated devices
 GLUON_DEPRECATED ?= full
